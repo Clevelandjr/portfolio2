@@ -78,6 +78,7 @@ style {
 
 .info {
     background-color: white;
+    padding-bottom: 30px;
 }
 
 #links{
@@ -116,11 +117,6 @@ img {
     text-align: center;
     padding-top: 15px;
 }
-  .boxes{
-      position: relative;
-      display: inline-block;
-      margin: 5px 10px 30px 10px;
-  }
   .form{
       color: #777777;
       width: 100%;
@@ -156,27 +152,9 @@ img {
     min-height: 100%;
    }
    body {
-    /* Margin bottom by footer height */
     margin-bottom: 60px;
    }
  
-   }
+
 
    
-  @media only screen and (max-width: 980px) {
-.contain {
-
-}
-
-
-  }
-  @media only screen and (max-width: 768px) {
-    .contain {
-        width: 768px;
-    }
-  }
-  @media only screen and (max-width: 640px) {
-    .contain: 640px;
-
-
-  }
